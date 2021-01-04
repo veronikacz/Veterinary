@@ -416,7 +416,7 @@ table {
     grid-column: 2 / -2;
 }
 .main-image {
-    margin-bottom: 1.5em;
+    margin-bottom: 3em;
     box-shadow: 5px 5px 10px RGBA(1,51,40,0.3), 10px 10px 10px RGBA(204,139,101,0.3);
     grid-row: span 2;
 }
@@ -426,9 +426,6 @@ table {
 .contact-span {
     font-weight: 700;
     color: #100C0D;
-}
-.main-text {
-    margin-bottom: 2em;
 }
 .order-image {
     order: 2;
