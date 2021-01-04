@@ -459,6 +459,9 @@ table {
         grid-column: 2;
         text-align: left;
     }
+    .main-contact {
+        padding-bottom: 2em;
+    }
     .map {
         margin-bottom: 0;
     }
