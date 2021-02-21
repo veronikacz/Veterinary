@@ -7,22 +7,24 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header class="header header-home main-grid">
     <div class="header-content">
+    <div class="header-logo">
         <a class="logo-link" href="index.html">
-        LOGO
+        <img class="logo" src="../img/logo.jpg" alt="logo">
         </a>
+    </div>    
         <button aria-label="Open navigation" class="open-nav">&#9776;</button>
         <nav class="nav">
             <button aria-label="Close navigation" class="close-nav">&times;</button>
             <ul class="nav-list">
-                <li class="nav-item"><a class="nav-link current" href="index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="o_nas.html">O nás</a></li>
+                <li class="nav-item"><a class="nav-link current" href="index.html">Úvod</a></li>
+                <li class="nav-item"><a class="nav-link" href="o_nas.html">Personál</a></li>
                 <li class="nav-item"><a class="nav-link" href="sluzby.html">Služby</a></li>
                 <li class="nav-item"><a class="nav-link" href="kontakt.html">Kontakt</a></li>
             </ul>
@@ -33,46 +35,50 @@
         <section class="dog main-grid">
             <div class="dog-image"></div>
             <h1 class="dog-title">Veterinární ordinace v Bílině</h1>
-            <p class="dog-subtitle">Nabízíme <span>komplexní veterinární péči</span>. Zaměřenou na prevenci, diagnostiku a léčbu nemocí malých zvířat.</p>
+            <p class="dog-subtitle">Nabízíme <span>komplexní veterinární péči</span> zaměřenou na prevenci, diagnostiku a léčbu nemocí malých zvířat.</p>
             </div>
         </section>
         <section class="info main-grid">
             <div class="col col1">
                 <h2 class="section-title section-title-center">Naše služby</h2>
-                <p>Naše péče je dostupná pro každého, ke všem klientům přistupujeme dle jeho individuálních potřeb.</p>
                 <ul>
-                    <li class="li-item"><strong>Preventivní péče</strong> - Vakcinace a odčervení, klinické vyšetření, ošetření vnějšími antiparazitiky…</li>
-                    <li class="li-item"><strong>Vyšetření a zákroky</strong> - Dermatologie, endokrinologie, gastroenterologie, gynekologie, chirurgie měkkých tkání…</li>
+                    <li class="li-item"><strong>Preventivní péče</strong></li>
+                    <li class="li-item"><strong>Klinické vyšetření</strong></li>
+                    <li class="li-item"><strong>Chirurgie měkkých tkání</strong></li>
+                    <li class="li-item"><strong>Laboratorní diagnostika</strong></li>
+                    <li class="li-item"><strong>RTG a USG diagnostika</strong></li>
+                    <li class="li-item"><strong>Vystavování pasů a čipování</strong></li>
+                    <li class="li-item"><strong>Dentální hygiena</strong></li>
                 </ul>
                 <a href="sluzby.html" class="btn btn-primary">Více o našich službách</a>
             </div>
                 <div class="opening-hours col col2">
                     <h2 class="section-title section-title-center">Otevírací doba</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi ratione aperiam alias cumque fugit consectetur odio</p>
+                    <p>Jsme nově otevřená ordinace. Před návštěvou je možnost se objednat.</p>
                     <table>
                         <tr class="monday fvl-d">
                             <td><span class="opening-day">Pondělí</span></td>
-                            <td>8.00 - 18.00</td>
+                            <td>13:00 - 17:00</td>
                         </tr>
                         <tr class="tuesday fvl-d">
                             <td><span class="opening-day">Úterý</span></td>
-                            <td>8.00 - 18.30</td>
+                            <td>08:30 - 15:00</td>
                         </tr>
                         <tr class="wednesday fvl-d">
                             <td><span class="opening-day">Středa</span></td>
-                            <td>8.00 - 12.00</td>
+                            <td>13:00 - 17:00</td>
                         </tr>
                         <tr class="thursday fvl-d">
                             <td><span class="opening-day">Čtvrtek</span></td>
-                            <td>8.00 - 11.30</td>
+                            <td>08:30 - 15:00</td>
                         </tr>
                         <tr class="friday fvl-d">
                             <td><span class="opening-day">Pátek</span></td>
-                            <td>9.00 - 12.00</td>
+                            <td>08:30 - 13:00</td>
                         </tr>
                         <tr class="saturday fvl-d">
                             <td><span class="opening-day">Sobota</span></td>
-                            <td>9.00 - 10.00</td>
+                            <td>zavřeno</td>
                         </tr>
                         <tr class="sunday fvl-d">
                             <td><span class="opening-day">Neděle</span></td>
@@ -82,10 +88,10 @@
                 </div>
             <div class="col col3">
                 <h2 class="section-title section-title-center">Rychlý kontakt</h2>
-                <h3>Veterinární ordinace Bílina</h3>
-                <p>Bílinská 5768, 678 87 Bílina</p>
-                <p><strong>Tel.:</strong> +420 789 754 567</p>
-                <p><strong>Email:</strong> veterina@bilina.cz</p>
+                <h3>Veterinární ordinace EgneVET</h3>
+                <p>Alšova 388, 418 01 Bílina</p>
+                <p><strong>Tel.:</strong> +420 xxx xxx xxx</p>
+                <p><strong>Email:</strong> veterina@egnevet.cz</p>
                 <a href="kontakt.html" class="btn btn-primary">Kontaktujte nás</a>
             </div>
 
@@ -97,11 +103,9 @@
             <h4>Veterinární ordinace v Bílině</h4>
             <p>© 2020 VeronikaCZ - All Rights Reserved</p>
         </div>
-        <ul class="social-list">
+        <!-- <ul class="social-list">
             <li class="social-item"><a href="#" class="social-link"><i class="fab fa-facebook-square"></i></a></li>
-            <li class="social-item"><a href="#" class="social-link"><i class="fab fa-twitter"></i></a></li>
-            <li class="social-item"><a href="#" class="social-link"><i class="fab fa-instagram"></i></a></li>
-        </ul>
+        </ul> -->
     </footer>
     <script src="script.js"></script>
 </body>
