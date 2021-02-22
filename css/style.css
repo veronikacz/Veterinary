@@ -31,6 +31,7 @@ h1, h2, h3, h4 {
 }
 .page-title {
     font-size: 3rem;
+    Font-Family: 'Montserrat', sans-serif;
     margin-bottom: 0;
     justify-self: center;
     color: #013328;
@@ -244,6 +245,8 @@ span {
     font-weight: bold;
     text-decoration: none;
     font-size: 1.4rem;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
     text-transform: uppercase;
 }
 .nav-link:hover,
@@ -251,10 +254,10 @@ span {
     color: #cc8b65;
 }
 .logo {width: 10rem;
+    min-width: 7rem;
     padding: 0.5em;
-    justify-content: center;
+    justify-content: center;.na
     text-align: center;
-    /* border: 3px solid #013328; */
 }
 
 .logo-link {
@@ -282,7 +285,7 @@ span {
     margin-left: auto;
     font-size: 1.5rem;
 }
-@media (min-width: 540px) {
+@media (min-width: 650px) {
     .open-nav, .close-nav {
         display:none;
     }
