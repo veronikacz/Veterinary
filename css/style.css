@@ -76,6 +76,9 @@ span {
 .section-title:first-child {
     margin-top: 0;
 }
+.phone {
+    text-decoration: none;
+}
 /*buttons*/
 .btn {
     display: inline-block;
