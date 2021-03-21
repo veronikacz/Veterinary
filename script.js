@@ -24,32 +24,32 @@ const time = () => {
     const saturday = document.querySelector('.saturday');
     const sunday = document.querySelector('.sunday');
 
+    if (monday) {
+        switch (new Date().getDay()) {
 
-    switch (new Date().getDay()) {
-
-        case 1:
-            monday.setAttribute("id", "activerow");
-            break;
-        case 2:
-            tuesday.setAttribute("id", "activerow");
-            break;
-        case 3:
-            wednesday.setAttribute("id", "activerow");
-            break;
-        case 4:
-            thursday.setAttribute("id", "activerow");
-            break;
-        case 5:
-            friday.setAttribute("id", "activerow");
-            break;
-        case 6:
-            saturday.setAttribute("id", "activerow");
-            break;
-        case 0:
-            sunday.setAttribute("id", "activerow");
-            break;
+            case 1:
+                monday.setAttribute("id", "activerow");
+                break;
+            case 2:
+                tuesday.setAttribute("id", "activerow");
+                break;
+            case 3:
+                wednesday.setAttribute("id", "activerow");
+                break;
+            case 4:
+                thursday.setAttribute("id", "activerow");
+                break;
+            case 5:
+                friday.setAttribute("id", "activerow");
+                break;
+            case 6:
+                saturday.setAttribute("id", "activerow");
+                break;
+            case 0:
+                sunday.setAttribute("id", "activerow");
+                break;
+        }
     }
-
 }
 time();
 

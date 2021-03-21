@@ -259,7 +259,7 @@ span {
 .logo {width: 10rem;
     min-width: 7rem;
     padding: 0.5em;
-    justify-content: center;.na
+    justify-content: center;
     text-align: center;
 }
 
@@ -523,6 +523,9 @@ textarea {
         .name-label, .name-input, .message-label, .message-textarea {
         grid-column: 1;   
        }
+   .contact-result {
+        grid-column: 1;
+   }
 }
 @media (min-width: 820px) {
    .contact-form {
@@ -546,4 +549,15 @@ textarea {
        grid-column: 3 / span 2;
        margin-bottom: 0;
    }
+   .contact-result {
+        grid-column: 1 / span 2;
+   }
+}
+.contact-error {
+    display: none;
+    color: red;
+}
+.contact-success {
+    display: none;
+    color: green;
 }
